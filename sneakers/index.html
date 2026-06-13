@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sneakers</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="header__container">
+            <div class="header__box">
+                <button class="menu__btn"><img src="img/header-img/menu.png" alt=""></button>
+                <h2 class="header__title"><img class="header__logo" src="img/header-img/logo.svg" alt=""></h2>
+                <ul class="header__href">
+                    <li class="header__list"><a class="header__link" href="#">Collections</a></li>
+                    <li class="header__list"><a class="header__link" href="#">Men</a></li>
+                    <li class="header__list"><a class="header__link" href="#">Women</a></li>
+                    <li class="header__list"><a class="header__link" href="#">About</a></li>
+                    <li class="header__list"><a class="header__link" href="#">Contact</a></li>
+                </ul>
+            </div>
+            <div class="right">
+                <button class="cart__btn"><img src="img/header-img/store1.png" alt=""><span class="cart__count">0</span>
+                </button>
+                <div class="cart__box">
+                    <h3>Cart</h3>
+                    <div class="cart__content">
+                        Your cart is empty.
+                    </div>
+                </div>
+                <img src="img/header-img/portret.svg" class="avatar">
+            </div>
+        </div>
+    </header>
+    <div class="line"></div>
+
+    <section class="section">
+        <div class="section__container">
+            <div class="gallery">
+                <img src="img/section-img/sneakers.svg" class="main__img" data-price="125">
+                <div class="thumbnails">
+                    <img src="img/section-img/sneakers.svg" class="thumb active" data-price="125">
+                    <img src="img/section-img/sneakers2.svg" class="thumb" data-price="150">
+                    <img src="img/section-img/sneakers3.svg" class="thumb" data-price="180">
+                    <img src="img/section-img/sneakers4.svg" class="thumb" data-price="220">
+                </div>
+            </div>
+            <div class="info">
+                <span class="company">SNEAKER COMPANY</span>
+                <h1 class="title">
+                    Fall Limited Edition Sneakers
+                </h1>
+                <p class="desc">
+                    These low-profile sneakers are your perfect casual wear <br> companion. Featuring a durable rubber
+                    outer
+                    sole, they’ll <br> withstand everything the weather can offer.
+                </p>
+                <div class="prices">
+                    <div class="prices__div">
+                        <span class="price">$125</span>
+                        <p class="prices__number">50%</p>
+                    </div>
+                    <p class="prices__text">$250.00</p>
+                </div>
+                <div class="actions">
+                    <div class="quantity__box">
+                        <button class="minus">-</button>
+                        <span class="qty">0</span>
+                        <button class="plus">+</button>
+                    </div>
+                    <button class="add__cart"><img src="img/section-img/store2.png" alt=""> Add To Cart</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
